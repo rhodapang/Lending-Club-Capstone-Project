@@ -6,4 +6,24 @@ In this project, I build machine learning models to predict the probability that
 
 # 1. Data 
 
-The 
+The dataset is from [Lending Club platfrom](https://www.lendingclub.com/investing/peer-to-peer). I download the dateset on 2018Q1 with 107,864 loans and 100 variables for each loan.
+
+From the document-LCDataDictionary provided by lending club, there are total categories variables in the dataset:
+- User feature (general)
+- User feature (financial specific): income, credit scores, credit lines
+- Loan general feature
+- Loan payment feature
+- Current loan payment feature
+- Secondary application info
+- Hardship
+- Settlement
+- Potential response variables:sub_grade, int_rate, loan_status
+
+Generally Speaking, the columns that have not been located in User feature (general),User feature (financial specific),Secondary application info and Loan general feature would be excluded in the dataset.
+
+# 2. Data Cleaning 
+
+This step focus on collecting the data, organizing it and making sure it's well defined.
+
+
+
